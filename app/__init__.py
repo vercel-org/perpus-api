@@ -8,6 +8,7 @@ from flask_mail import Mail
 from flask_cors import CORS
 import os
 from flask_swagger_ui import get_swaggerui_blueprint
+from wsgi import app
 
 app = Flask(__name__)
 
